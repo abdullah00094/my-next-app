@@ -10,7 +10,7 @@ export default async function PostDetailsPage({params}){
     return(
         <div>
             <h1>post Details </h1>
-            <Suspense>
+            <Suspense fallback={loadingJsx}>
             <PostDetails postId={postId}/>
             </Suspense>
         </div>
