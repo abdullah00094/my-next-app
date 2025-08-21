@@ -40,3 +40,15 @@ a {
     color-scheme: dark;
   }
 }
+.main-div{
+  background-color: aqua ;
+}
+
+.navbar{
+            width: 100%;
+           background: teal;
+            font-size: 2rem;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+}
